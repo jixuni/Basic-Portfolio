@@ -9,13 +9,14 @@ body{
 }
 .section {
     font-family: Arial, Helvetica, sans-serif;
-    width: 960px;
+    max-width: 960px;
     background: #ffffff;
     position: absolute;
     color: #777777;
     top: 200px;
     left: 15%;
-   
+    overflow: auto;
+    
     
     
 }
@@ -31,6 +32,11 @@ title {
     position: relative;
     
 
+}
+.self{
+    float:left;
+    margin: 5px;
+    position: relative;
 }
 hr { 
     display: block;
@@ -51,11 +57,7 @@ h1 {
     color: #4aaaa5;
     
 }
-img {
-    float:left;
-    margin: 5px;
-    position: relative;
-}
+
 
 #top_nav {
    position: fixed;
@@ -104,6 +106,10 @@ img {
     position: relative;
     left: 15%;
 }
+#textarea {
+    resize: none;
+    height: 300px;
+}
 
 .footer {
     position: fixed;
@@ -119,7 +125,6 @@ img {
 .all_content {
     height: 100%;
     width: 100%;
-    position: relative;
     text-align: center;
 
 }
@@ -127,11 +132,12 @@ img {
     background-color: #ffffff;
     padding: 20px;
     width: 60%;
-    height: 500px;
     margin: auto;
-    position: relative;
+    position: absolute;
     top: 200px;
     overflow: auto;
+    height: auto;
+    left: 20%;
 }
 .information {
     float: left;
@@ -145,11 +151,7 @@ input {
     height: 20%;
 }
 
-#message{
-    width: 70%;
-    height: 90%;
-    
-}
+
 button {
     width: 25%;
     height: 25px;
@@ -157,19 +159,19 @@ button {
     color: #ffffff;
 }
 
-.image_container {
+.image_container , .image_container2 , .image_container3 , .image_container4 , .image_container5 {
     position: relative;
+    float: left;
+    padding: 5px;
 }
 
-
-.text_image1 {
-    position:absolute;
+.text_image , .text_image2 , .text_image3 , .text_image4 , .text_image5 {
+    position: absolute;
     background-color: #4aaaa5;
-    margin: 5px;
-    margin-top: 20%;
+    height: 25px;
+    font: 20px;
     z-index: 10;
+    margin-top: -40%;
     width: 200px;
-    height: 30px;
-    font-size: 25px;
-    
+
 }
