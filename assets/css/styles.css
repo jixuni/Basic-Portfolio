@@ -64,7 +64,7 @@ img {
     background-color: #ffffff;
     color: #777777;
     max-height: 100%;
-    z-index: 10;
+    z-index: 20;
     border-bottom: 1px solid #777777;
     
 }
@@ -114,6 +114,7 @@ img {
     text-align: center;
     color: #ffffff;
     height: 30px;
+    z-index: 20;
 }
 .all_content {
     height: 100%;
@@ -130,6 +131,7 @@ img {
     margin: auto;
     position: relative;
     top: 200px;
+    overflow: auto;
 }
 .information {
     float: left;
